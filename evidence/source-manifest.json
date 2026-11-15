@@ -1,0 +1,54 @@
+{
+  "prepared_date_kst": "2026-11-15",
+  "owner": "조준혁",
+  "source_working_copy_head": "2408255cfd36a9476c1320dcc8bfa19a5510c8a0",
+  "note": "Original working-copy files copied without modification; source HEAD is context, exact content is identified by the hashes. Public review harness is newly written with synthetic inputs.",
+  "capture_date": "2026-10-28",
+  "capture_product_commit": "ef1fa2bea73fdeee7f98e58ae2d38a640383a72b",
+  "capture_type": "actual product UI displaying historical saved route data; not live traffic",
+  "files": [
+    {
+      "published_file": "code/journey-service.mjs",
+      "source_file": "journey-service.mjs",
+      "sha256": "986eddb8e4d89a57f6d6539e8f21f4545a1c37f606d0c3273950d699f20bcc89",
+      "copied_without_content_changes": true
+    },
+    {
+      "published_file": "code/journey-store.mjs",
+      "source_file": "journey-store.mjs",
+      "sha256": "d08a2577485bbbe332823bd79d19f61537dfc4f06968d5370ef229878536b75a",
+      "copied_without_content_changes": true
+    },
+    {
+      "published_file": "assets/route-overview.png",
+      "source_file": "latest-idle-upper.png",
+      "sha256": "5b30c566a7d505e582a928c0b5e5272bc82527a3edbc67ad1ac3eecac6b99372",
+      "copied_without_content_changes": true
+    },
+    {
+      "published_file": "assets/route-selected.png",
+      "source_file": "latest-bus-selected-lower.png",
+      "sha256": "e29c2e9b812aa7dc780afe60cf7207aac69095259f9baa5e3e8e3c2b38c1f6ee",
+      "copied_without_content_changes": true
+    },
+    {
+      "published_file": "assets/deadline-router-introduction.pdf",
+      "source_file": "extreme-pitch.pdf",
+      "sha256": "7c2dea255706d15c1f0eaf69f7336e698b388c457018cfc8b2d8ee7d91bd6d64",
+      "copied_without_content_changes": true
+    }
+  ],
+  "historical_replay": {
+    "date": "2026-09-06",
+    "input_snapshot_sha256": "0bf258b6eb1372d992057c97d1e1c7cceb884c0718bd9d9e97e04d8776c181c4",
+    "record": "2026-09-06_earliest_arrival_fix.md",
+    "replayed_again_for_this_portfolio": false
+  },
+  "current_test": {
+    "date_utc": "2026-11-15T14:15:15.080Z",
+    "node": "v24.14.0",
+    "checks_passed": 8,
+    "external_network_calls": 0,
+    "scope": "original journey service/store, synthetic transport and UI adapters"
+  }
+}
